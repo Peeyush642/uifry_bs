@@ -33,11 +33,11 @@ const Hero = () => {
             </i>
           </button>
           <Link to="">
-          <button className={styles.watchNowButton}>
-            
+            <button className={styles.watchNowButton}>
               <img src={MediaIcon} alt="mediaIcon" />
-            Watch Video
-          </button></Link>
+              Watch Video
+            </button>
+          </Link>
         </div>
         <div className={styles.leftImage}>
           <img src={LeftImage} alt="leftImage" />
@@ -57,18 +57,19 @@ const Hero = () => {
           <img src={Mockup1} alt="mockup1" className={styles.mockup1} />
           <img src={Mockup2} alt="mockup2" className={styles.mockup2} />
           <img src={Mockup1} alt="mockup3" className={styles.mockup3} />
+          <div className={styles.colorMesh2}>
+            <img src={ColorMesh2} alt="colorMesh2" />
+          </div>
+          <div className={styles.star2}>
+            <img src={Star2} alt="star2" />
+          </div>
         </div>
         <div className={styles.heroRings}>
           <img src={Rings} alt="rings" />
         </div>
-        <div className={styles.colorMesh2}>
-          <img src={ColorMesh2} alt="colorMesh2" />
-        </div>
+
         <div className={styles.star1}>
           <img src={Star1} alt="star1" />
-        </div>
-        <div className={styles.star2}>
-          <img src={Star2} alt="star2" />
         </div>
       </div>
     </div>

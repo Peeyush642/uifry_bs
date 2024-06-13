@@ -48,6 +48,7 @@ body {
   font-family: 'ClashDisplay-400', sans-serif;
   text-transform: capitalize;
   max-width: 1800px;
+  width: 100%;
 }
 
 a {

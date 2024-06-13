@@ -77,8 +77,8 @@
 
 .colorMesh2 {
   position: absolute;
-  right: 11rem;
-  top: 5rem;
+  right: 6rem;
+  top: -4rem;
   z-index: 2;
 }
 
@@ -157,7 +157,9 @@
   .star3 {
     display: none;
   }
-
+  .star4 {
+    display: none;
+  } 
   .heroLeftContent {
     margin-top: 3rem;
   }
@@ -165,11 +167,6 @@
   .colorMesh1 img {
     /* display: none; */
     width: 90%;
-  }
-  .colorMesh2 {
-    /* display: none; */
-    top: 50rem;
-    right: 18rem;
   }
 }
 
@@ -234,9 +231,8 @@
     font-size: 0.8rem;
   }
 
-  .star4 {
-    display: none;
-  } 
+
+
 }
 
 @media screen and (max-width: 400px) {
@@ -248,4 +244,7 @@
     padding: 0.5rem;
     margin: 0 0.5rem;
   }
+
+  .colorMesh1 {
+  top: 4rem;}
 }
