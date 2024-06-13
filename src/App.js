@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import { Footer } from "./container";
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./Pages/Home";
 import "./App.css";
@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }
