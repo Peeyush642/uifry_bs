@@ -70,7 +70,7 @@
     display: block;
   }
   
-  /* Media Queries */
+
   @media (max-width: 768px) {
     .navButton {
       display: none;
@@ -108,7 +108,7 @@
     }
   
     .showMenu {
-      max-height: 500px; /* Adjust as needed */
+      max-height: 500px; 
     }
   }
   
