@@ -5,6 +5,7 @@
     align-items: center;
     padding: 2rem 8rem;
     position: relative;
+    z-index: 200;
   }
   
   .navContainer {
@@ -115,7 +116,7 @@
     .showMenu {
       max-height: 500px; 
       visibility: visible;
-
     }
+
   }
   
