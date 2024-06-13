@@ -12,6 +12,7 @@ import Star2 from "../../assets/stars/star2.png";
 import Star3 from "../../assets/stars/star3.png";
 import Star4 from "../../assets/stars/star4.png";
 import LeftImage from "../../assets/achievements.svg";
+import MediaIcon from "../../assets/icons/mediaIcon.svg";
 
 const Hero = () => {
   return (
@@ -23,13 +24,21 @@ const Hero = () => {
           Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
           faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
         </p>
-        <button className={styles.getStartedButton}>
-          <Link to="">Get Started</Link>
-          <i className="arrow">
-            {" "}
-            <img src={Arrow} alt="arrow" />
-          </i>
-        </button>
+        <div className={styles.leftButtons}>
+          <button className={styles.getStartedButton}>
+            <Link to="">Get Started</Link>
+            <i className="arrow">
+              {" "}
+              <img src={Arrow} alt="arrow" />
+            </i>
+          </button>
+          <Link to="">
+          <button className={styles.watchNowButton}>
+            
+              <img src={MediaIcon} alt="mediaIcon" />
+            Watch Video
+          </button></Link>
+        </div>
         <div className={styles.leftImage}>
           <img src={LeftImage} alt="leftImage" />
         </div>
@@ -61,7 +70,6 @@ const Hero = () => {
         <div className={styles.star2}>
           <img src={Star2} alt="star2" />
         </div>
-
       </div>
     </div>
   );

@@ -22,6 +22,27 @@
   justify-content: center;
 }
 
+.leftButtons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.watchNowButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  padding: 1rem;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1rem;
+  letter-spacing: 0.025rem;
+}
+
 .mainHeading {
   display: flex;
   flex: 1;
@@ -196,11 +217,23 @@
   .mainHeading {
     font-size: 2rem;
   }
+
   .subText {
     font-size: 1rem;
     padding: 1rem;
     margin: 0 1rem;
   }
+  
+  .watchNowButton {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .getStartedButton {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+
   .star4 {
     display: none;
   } 
