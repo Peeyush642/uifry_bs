@@ -20,6 +20,10 @@
   font-style: normal;
 }
 
+html{
+  display: flex;
+  justify-content: center;
+align-items: center;}
 
 
 :root {
