@@ -107,3 +107,22 @@
   right: -6rem;
   z-index: 6;
 }
+
+
+@media screen and (max-width: 1100px) {
+
+    .star1{
+      display: none;
+    }
+
+    .star3{
+      display: none;
+    }
+    
+    .colorMesh1 {
+      display: none;
+    }
+    .colorMesh2 {
+       display: none;
+    }
+}
